@@ -6,6 +6,28 @@ Repository with solutions for multiple languages by @forbidden404 for the Advent
 
 The project folder is structured in the following way, there will be a folder for each year, inside each year there will be a folder for each language used to solve the challenges, which will have a folder for each individual challenge, containing the solution code, given input and expected output.
 
+## Compiling
+### C/C++
+```bash
+$ make main
+```
+
+### Haskell
+```bash
+$ ghc main.hs
+```
+
+### Swift
+```bash
+$ swiftc main.swift
+```
+
+## Testing 
+```bash
+$ ./main < input > output2
+$ diff output output2
+```
+
 ## Authors
 
 * **Francisco Soares** - *All solutions* - [Forbidden404](https://github.com/forbidden404)
