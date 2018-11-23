@@ -7,9 +7,14 @@ Repository with solutions for multiple languages by @forbidden404 for the Advent
 The project folder is structured in the following way, there will be a folder for each year, inside each year there will be a folder for each language used to solve the challenges, which will have a folder for each individual challenge, containing the solution code, given input and expected output.
 
 ## Compiling
-### C/C++
+### C
 ```bash
 $ make main
+```
+
+### C++
+```bash
+$ make main CPPFLAGS="-std=c++11"
 ```
 
 ### Haskell
